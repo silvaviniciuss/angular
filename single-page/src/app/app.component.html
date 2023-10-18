@@ -1,0 +1,15 @@
+<app-comp-atributos>
+    <h1>Ng Content</h1>
+    <h2>Ng content h2</h2>
+</app-comp-atributos>
+
+<app-card *ngIf="isAliveCard; else anotherBlock"
+></app-card>
+
+<ng-template #anotherBlock>
+    <p>Olá, sou um bloco secreto</p>
+</ng-template>
+
+<app-input></app-input>
+
+<router-outlet></router-outlet>

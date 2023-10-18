@@ -1,0 +1,13 @@
+.enable{
+    color: blue;
+}
+
+.disable {
+    color: red;
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
